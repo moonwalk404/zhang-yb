@@ -1,0 +1,10 @@
+﻿<settings>
+  <mirrors>
+    <mirror>
+      <id>local-only</id>
+      <mirrorOf>*</mirrorOf>
+      <url>file://C:/Users/victor.LAPTOP-J9VHL1A4/.m2/repository</url>
+    </mirror>
+  </mirrors>
+  <offline>true</offline>
+</settings>

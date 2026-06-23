@@ -1,0 +1,26 @@
+{
+    "name": "smart-travel-frontend",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host 0.0.0.0 --port 5173",
+        "build": "vite build",
+        "preview": "vite preview",
+        "mock": "node mock-server.js",
+        "start:full": "node mock-server.js & vite --host 0.0.0.0 --port 5173"
+    },
+    "dependencies": {
+        "@element-plus/icons-vue": "^2.3.0",
+        "axios": "^1.6.0",
+        "element-plus": "^2.5.0",
+        "leaflet": "^1.9.4",
+        "pinia": "^2.1.0",
+        "vue": "^3.4.0",
+        "vue-router": "^4.2.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.0",
+        "vite": "^5.0.0"
+    }
+}

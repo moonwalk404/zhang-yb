@@ -1,0 +1,50 @@
+﻿# ============================================================
+# Smart Travel Portal - Git Ignore
+# Spring Boot (backend) + Vue 3 (frontend)
+# ============================================================
+
+# --- Maven / Java ---
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+!backend/target/smart-travel-*.jar
+
+# --- Node / Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Logs ---
+*.log
+backend/stdout.log
+backend/stderr.log
+
+# --- Database (H2 local files) ---
+*.mv.db
+!backend/data/traveldb.mv.db
+
+# --- Temporary / Work files ---
+outputs/
+work/
+*.py
+!fix_encoding.py
+tmp*/
+
+# --- Env / Secrets ---
+.env
+.env.local
+application-local.yml

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg_yubf6h" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7d6608"/>
+      <stop offset="50%" style="stop-color:#b7950b"/>
+      <stop offset="100%" style="stop-color:#f1c40f"/>
+    </linearGradient>
+    <linearGradient id="fg_yubf6h" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef9e7;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#fef9e7;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow_yubf6h">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg_yubf6h)"/>
+  <circle cx="680" cy="90" r="180" fill="#fef9e7" opacity="0.12"/>
+  <circle cx="120" cy="510" r="140" fill="#fef9e7" opacity="0.1"/>
+  <circle cx="400" cy="280" r="250" fill="#fef9e7" opacity="0.06"/>
+  <rect width="800" height="300" y="300" fill="url(#fg_yubf6h)"/>
+  <text x="400" y="280" text-anchor="middle" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="42" font-weight="700" fill="#ffffff" filter="url(#glow_yubf6h)">苏州园林</text>
+  <text x="400" y="340" text-anchor="middle" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="20" fill="#fef9e7" opacity="0.9">咫尺之内再造乾坤</text>
+</svg>
